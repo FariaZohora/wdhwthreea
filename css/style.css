@@ -1,0 +1,89 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Poiret One', cursive;
+}
+body{
+	background-color:#dbe4e8;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+nav{
+	background-color:#d9effa;
+	height:50px;
+	width:1170px;
+	margin:0px auto;
+	position:relative;
+}
+.name{
+	font-size:30px;
+	position:absolute;
+	top:10px;
+}
+.sign-in{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+.forgot{
+	float:right;
+	margin-top:35px;
+	font-size:14px;
+	margin-right:10px;
+}
+.forgot:hover{
+	cursor:pointer;
+	color:blue;
+}
+
+section{
+	width:1170px;
+	height:650px;
+	background-image:url(../images/background.jpg);
+	margin:0px auto;
+	position:relative;
+}
+
+.container{
+	height:450px;
+	width:350px;
+	background-color:#d9effa;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+h2{
+	height:45px;
+	width:100%;
+	background-color:inherit;
+	font-size:43px;
+}
+.already{
+	height:60px;
+	width:100%;
+	background-color:inherit;
+	font-size:15px;
+}
+.create-account{
+	height:255px;
+	width:100%;
+	font-size:20px;
+}
+.sign-up{
+	margin-left:100px;
+	height:150px;
+	width:50%;
+	background-color:inherit;
+	font-size:20px;
+}
+.button{
+	width:100%;
+}
+.border{
+	height:45px;
+	width:100%;
+	background-color:black;
+}
